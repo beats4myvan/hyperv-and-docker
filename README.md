@@ -3,7 +3,7 @@ Virtualization with Hyper-V. Docker on Windows
 #Config docker on windows
 C:\ProgramData\docker\config\daemon.json -> Sample parameters that usually are changed include hosts, dns, graph, group, etc.
 
-# Docker commandline
+#Docker commandline
 https://docs.docker.com/engine/reference/commandline/dockerd/
 
 #Get started: Set up Linux Containers on Windows 10
@@ -15,7 +15,7 @@ https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/ne
 #Hyper-V Integration Services
 https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/integration-services
 
-# Generation 1 or 2 virtual machine in Hyper-V
+#Generation 1 or 2 virtual machine in Hyper-V
 https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/plan/should-i-create-a-generation-1-or-2-virtual-machine-in-hyper-v
 
 #Hyper-V Architecture
