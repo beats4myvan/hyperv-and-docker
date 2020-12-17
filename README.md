@@ -1,5 +1,15 @@
-Virtualization with Hyper-V. Docker on Windows
+Virtualization with Hyper-V Docker on Windows
 
+#Prepare VM to export to BAK folder#
+Open a command line session with Run As Administrator
+Navigate to C:\Windows\System32\Sysprep folder
+Execute the Sysprep.exe tool
+In System Cleanup Action select Enter System Out-of-Box Experience (OOBE)
+Select the Generalize option
+In the Shutdown Options drop down select Shutdown and click on OK
+After a while, once the generalization is done, the virtual machine will turn off
+
+# Useful Links
 #Config docker on windows
 C:\ProgramData\docker\config\daemon.json -> Sample parameters that usually are changed include hosts, dns, graph, group, etc.
 
